@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
-import IconButtonMenu from "./DropdownButton";
+import Dropdown from "./DropdownButton";
+
+
 
 
 function Header() {
@@ -12,10 +14,9 @@ function Header() {
         <div className="element">COZ Shopping</div>
       </div>
 
-      <div>
-        {/* <img className="MenuButton" src="/images/햄버거 버튼.svg" alt="Logo" /> */}
-        <IconButtonMenu/>
-        
+      <div className="MenuButton">
+      <Dropdown/>
+      
       </div>
     </div>
   );

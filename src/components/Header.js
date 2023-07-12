@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import IconButtonMenu from "./DropdownButton";
 
 
 function Header() {
@@ -13,8 +12,6 @@ function Header() {
       </div>
 
       <div>
-        {/* <img className="MenuButton" src="/images/햄버거 버튼.svg" alt="Logo" /> */}
-        <IconButtonMenu/>
         
       </div>
     </div>

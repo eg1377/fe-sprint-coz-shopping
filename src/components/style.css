@@ -317,3 +317,11 @@
   top: 4px;
   width: 16px;
 }
+
+
+/* 메뉴 */
+
+.menu{
+  border: none; 
+  background-color: #ffffff;
+}

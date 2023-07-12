@@ -1,0 +1,9 @@
+.App{
+
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 832px;
+  min-width: 1280px;
+  /* position: relative; */
+}

@@ -5,5 +5,9 @@
   flex-direction: column;
   height: 832px;
   min-width: 1280px;
+  justify-content: center;
+  align-items: center;
   /* position: relative; */
+
+  
 }

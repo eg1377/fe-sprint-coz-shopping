@@ -6,9 +6,11 @@ import MainPage from "./pages/MainPage";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MainPage />
-      <Footer />
+      <div className="Box">
+        <Header />
+        <MainPage />
+        <Footer />
+      </div>
     </div>
   );
 }

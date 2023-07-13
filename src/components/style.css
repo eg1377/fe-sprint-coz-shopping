@@ -22,7 +22,7 @@
   background-color: white;
   align-items: center;
   padding-left: 15px;
-  
+
 
 }
 
@@ -30,7 +30,7 @@
   width: 50px;
   height: 30px;
   flex-shrink: 0;
-  padding-left:76px;
+  padding-left: 76px;
 }
 
 .element {
@@ -58,6 +58,7 @@
 }
 
 .footer {
+  position: relative;
   display: flex;
   width: auto;
   height: 58px;
@@ -80,7 +81,7 @@
   border: 0px none;
   height: 18px;
   width: 150px;
-  
+
 }
 
 .footer_bottom {
@@ -161,7 +162,7 @@
   margin: 0;
 }
 
-.Item_name2{
+.Item_name2 {
   width: 214px;
   height: 24px;
   color: #000000;
@@ -171,7 +172,8 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin: 0;}
+  margin: 0;
+}
 
 .Item_P {
   color: #000;
@@ -193,7 +195,8 @@
 
 .bookmark-empty {
   position: absolute;
-  color: gray; /* 북마크가 채워지기 전의 색 */
+  color: gray;
+  /* 북마크가 채워지기 전의 색 */
   font-size: 24px;
   padding-left: 85%;
   padding-top: 65%;
@@ -202,14 +205,15 @@
 
 .bookmark-filled {
   position: absolute;
-  color: yellow; /* 북마크가 채워진 후의 색 */
+  color: yellow;
+  /* 북마크가 채워진 후의 색 */
   font-size: 24px;
   padding-left: 85%;
   padding-top: 65%;
 
 }
 
-.Item_P1{
+.Item_P1 {
   color: #000;
   text-align: left;
   font-family: Inter;
@@ -257,7 +261,7 @@
   font-weight: 400;
   background-color: #ffffff;
   min-width: 100px;
-  border-radius : 4px;
+  border-radius: 4px;
   box-shadow: 6px 4px 4px #0000001a;
   height: 150px;
   width: 200px;
@@ -268,12 +272,13 @@
   display: none;
   position: absolute;
   min-width: 100px;
-  left: -120%; /* 좌측으로 이동 */
-  border-radius : 4px;
+  left: -120%;
+  /* 좌측으로 이동 */
+  border-radius: 4px;
   width: 200px;
 }
 
-.Polygon{
+.Polygon {
   padding-left: 65%;
 }
 
@@ -284,7 +289,7 @@
   padding-bottom: 0;
   margin-bottom: 0;
   padding-right: 32px;
-  
+
 }
 
 .dropdown-content_A b:hover {
@@ -293,7 +298,7 @@
 
 .dropdown:hover .dropdown-content_A {
   display: block;
-} 
+}
 
 
 .dropdown-content a {
@@ -308,7 +313,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  
+
 }
 
 .dropdown-content a:hover {
@@ -335,3 +340,4 @@
   width: 20px;
   padding-right: 4px;
 }
+

@@ -10,6 +10,7 @@
   height: 80px;
   padding: 0;
   margin: 0;
+  width: 1280px;
 }
 
 .header .header_title {
@@ -66,6 +67,7 @@
   border-top: 1px solid rgba(0, 0, 0, 0.10);
   background: #FFF;
   padding-bottom: 11px;
+  width: 1280px;
 }
 
 .footer_top {
@@ -254,16 +256,46 @@
   position: absolute;
   z-index: 1;
   font-weight: 400;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   min-width: 100px;
-  left: -100%; /* 좌측으로 이동 */
-  /* border : 1px solid rgb(37, 37, 37); */
   border-radius : 4px;
-  box-shadow: 0px 0px 8px #0000001a;
+  box-shadow: 6px 4px 4px #0000001a;
   height: 150px;
   width: 200px;
   align-items: center;
 }
+
+.dropdown-content_A {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  left: -120%; /* 좌측으로 이동 */
+  border-radius : 4px;
+  width: 200px;
+}
+
+.Polygon{
+  padding-left: 65%;
+}
+
+.dropdown-content_A b {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 32px;
+  
+}
+
+.dropdown-content_A b:hover {
+  background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content_A {
+  display: block;
+} 
+
 
 .dropdown-content a {
   display: block;

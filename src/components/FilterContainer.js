@@ -1,54 +1,74 @@
+// import FilterButton from "./FilterButton";
+
+// function FilterContainer() {
+
+//   const srcList = [
+//     "/images/전체.svg",
+//     "/images/상품.svg",
+//     "/images/카테고리.svg",
+//     "/images/기획전.svg",
+//     "/images/브랜드.svg",
+//   ];
+
+//   const strList = [
+//     '전체',
+//     '상품',
+//     '카테고리',
+//     '기획전',
+//     '브랜드',
+//   ];
+
+
+
+//   return (
+//     <div>
+//     <ul className="Filter_container">
+//     {FilterButton (srcList[0],strList[0])}
+//       <FilterButton/>
+//       <FilterButton/>
+//       <FilterButton/>
+//       <FilterButton/>
+      
+//     </ul>
+//   </div>
+// );
+// }
+
+// export default FilterContainer;
+
+
+import React from "react";
 import FilterButton from "./FilterButton";
 
 function FilterContainer() {
-    const srcList =[
+  const srcList = [
     "/images/전체.svg",
-    "/images/브랜드.svg"
+    "/images/상품.svg",
+    "/images/카테고리.svg",
+    "/images/기획전.svg",
+    "/images/브랜드.svg",
+  ];
+
+  const strList = [
+    '전체',
+    '상품',
+    '카테고리',
+    '기획전',
+    '브랜드',
   ];
 
   return (
     <div>
-    <ul className="Filter_container">
-    <div>
-      {FilterButton(srcList[0])}
-      <p>타입 종류</p>
+      <div className="Filter_container">
+        {srcList.map((src, index) => (
+          <div key={index}>
+            <FilterButton img={src} str={strList[index]} /> 
+            {/* img와 str에 값을 전달 */}
+          </div>
+        ))}
+      </div>
     </div>
-    <div>
-      {FilterButton(srcList[1])}
-      <p>타입 종류</p>
-    </div>
-
-      <FilterButton/>
-      <FilterButton/>
-      <FilterButton/>
-    </ul>
-  </div>
-);
+  );
 }
 
 export default FilterContainer;
-
-// import React from "react";
-// import FilterButton from "./FilterButton";
-
-// const imagePaths = [
-//   "/images/이미지1.png",
-//   "/images/이미지2.png",
-//   "/images/이미지3.png",
-//   "/images/이미지4.png",
-//   "/images/이미지5.png"
-// ];
-
-// function FilterContainer() {
-//   return (
-//     <div>
-//       <ul className="Filter_container">
-//         {imagePaths.map((image, index) => (
-//           <FilterButton key={index} images={[{ img: image }]} />
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default FilterContainer;

@@ -8,13 +8,12 @@
   align-items: center;
 }
 
-.Box {
+/* .Box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
   border: 1px solid rgba(0, 0, 0, 0.10);
-  /* background-color: aquamarine; */
   margin-top: 10%;
   
-}
+} */

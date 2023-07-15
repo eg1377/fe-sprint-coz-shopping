@@ -1,19 +1,19 @@
 import Bookmark from "./Bookmark";
 
-function Brand() {
+function Brand({ img, name, customers, itemId }) {
   return (
     <div className="Item_IMG_G">
       <div className="add_BookMark">
-        <Bookmark/>
-        <img className="Item_IMG" src="/images/이미지1.png" alt="Logo" />
+        <Bookmark />
+        <img className="Item_IMG" src={img} alt="Logo" />
       </div>
 
       <div className="Bottom_Text">
         <div className="Text_top">
-          <p className="Item_name">브랜드 이름</p>
+          <p className="Item_name">{name}</p>
           <p className="Item_name2">관심 고객수</p>
         </div>
-        <p className="Item_P">00,000</p>
+        <p className="Item_P">{itemId}</p>
       </div>
     </div>
   );

@@ -1,13 +1,8 @@
 import React from "react";
-import "./style.css";
-import Dropdown from "./DropdownButton";
-
-
-
+import DropdownButton from "./DropdownButton";
 
 function Header() {
   return (
-    
     <div className="header">
       <div className="header_title">
         <img className="logo" src="/images/로고.png" alt="Logo" />
@@ -15,12 +10,10 @@ function Header() {
       </div>
 
       <div className="MenuButton">
-      <Dropdown/>
-      
+        <DropdownButton/>
       </div>
     </div>
   );
 }
-
 
 export default Header;

@@ -256,10 +256,11 @@
   position: absolute;
   z-index: 1;
   font-weight: 400;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   min-width: 100px;
+  /* border : 1px solid rgb(37, 37, 37); */
   border-radius : 4px;
-  box-shadow: 6px 4px 4px #0000001a;
+  box-shadow: 0px 0px 8px #0000001a;
   height: 150px;
   width: 200px;
   align-items: center;
@@ -268,33 +269,39 @@
 .dropdown-content_A {
   display: none;
   position: absolute;
+  z-index: 1;
+  font-weight: 400;
   min-width: 100px;
-  left: -120%; /* 좌측으로 이동 */
+  left: -100%; /* 좌측으로 이동 */
+  /* border : 1px solid rgb(37, 37, 37); */
   border-radius : 4px;
+  height: 150px;
   width: 200px;
+  align-items: center;
 }
 
-.Polygon{
-  padding-left: 65%;
-}
 
-.dropdown-content_A b {
+.dropdown-content_A a {
   display: block;
   text-decoration: none;
+  color: rgb(37, 37, 37);
   font-size: 12px;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding: 0;
   padding-right: 32px;
   
+
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.dropdown-content_A b:hover {
-  background-color: transparent;
+.dropdown-content_A a:hover {
+  background-color: #ececec;
 }
 
 .dropdown:hover .dropdown-content_A {
   display: block;
-} 
+}
 
 
 .dropdown-content a {

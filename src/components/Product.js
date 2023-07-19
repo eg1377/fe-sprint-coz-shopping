@@ -1,19 +1,19 @@
 import Bookmark from "./Bookmark";
 
-function Product() {
+function Product({ img, name, price, discountPercentage }) {
   return (
     <div className="Item_IMG_G">
       <div className="add_BookMark">
         <Bookmark/>
-        <img className="Item_IMG" src="/images/이미지0.png" alt="Logo" />
+        <img className="Item_IMG" src={img} alt="Logo" />
       </div>
 
       <div className="Bottom_Text">
         <div className="Text_top">
-          <p className="Item_name">상품이름</p>
-          <p className="Item_F">00%</p>
+          <p className="Item_name">{name}</p>
+          <p className="Item_F">{discountPercentage}%</p>
         </div>
-        <p className="Item_P">상품 가격</p>
+        <p className="Item_P">{price}원</p>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import Bookmark from "./Bookmark";
 
-function Brand({ img, name, customers, itemId }) {
+function Brand({ img, name, itemId }) {
   return (
     <div className="Item_IMG_G">
       <div className="add_BookMark">
